@@ -3,7 +3,7 @@
 Voor week 3 heb ik een persoonlijkheidsquiz gemaakt om te kijken welk Apple product jij bent.
 
 In de app kom je door antwoord te geven op de vragen er achter welk product jij bent.
-![Intro](https://github.com/bartwitting/PersonalityQuizz/blob/master/doc/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-11-14%20at%2010.08.43.png) {width = 250; }
+![Intro](https://github.com/bartwitting/PersonalityQuizz/blob/master/doc/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-11-14%20at%2010.08.43.png){: height="36px" width="36px"}
 
 Er zijn drie soorten vragen:
 
