@@ -9,7 +9,7 @@ Er zijn drie soorten vragen:
 
 ###### Enkel antwoord
 Op deze vraag geef je antwoord door op het antwoord te klikken.
-![Enkel antwoord](https://github.com/bartwitting/PersonalityQuizz/blob/master/doc/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-11-14%20at%2010.08.47.png  =250x)
+![Enkel antwoord](https://github.com/bartwitting/PersonalityQuizz/blob/master/doc/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-11-14%20at%2010.08.47.png | s=250x)
 
 ###### Meerdere antwoorden
 Op deze vraag geef je antwoord door op het antwoord te klikken.
