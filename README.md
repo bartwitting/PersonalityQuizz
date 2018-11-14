@@ -17,7 +17,7 @@ Op deze vraag geef je antwoord door op het antwoord te klikken.
 
 ###### Schaal antwoord
 Op deze vraag geef je antwoord door op het antwoord te klikken.
-![Schaal antwoord](https://github.com/bartwitting/PersonalityQuizz/blob/master/doc/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-11-14%20at%2010.09.13.png) <!-- .element height="50%" width="50%" -->
+![Schaal antwoord](https://github.com/bartwitting/PersonalityQuizz/blob/master/doc/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-11-14%20at%2010.09.13.png) <!-- .element height="50" width="50" -->
 
 De resultaten komen aan het einde te zien via het laatste scherm. Hier kan je ook de quiz opnieuw doen door op "Done" te klikken.
 ![Resultaten](https://github.com/bartwitting/PersonalityQuizz/blob/master/doc/Simulator%20Screen%20Shot%20-%20iPhone%20X%20-%202018-11-14%20at%2010.09.16.png  =250x)
