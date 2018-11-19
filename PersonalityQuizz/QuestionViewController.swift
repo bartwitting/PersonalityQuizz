@@ -38,7 +38,7 @@ class QuestionViewController: UIViewController {
     var questions : [Question] = [
         Question(text: "What do you like?", type:.single, answers:[Answer(text:"Jewlery", type:.watch), Answer(text:"Having everything in reach", type:.iphone), Answer(text:"To work where possible", type:.macbook), Answer(text:"POWER", type:.imac)].shuffled()),
         Question(text: "What are you?", type:.multiple, answers:[Answer(text:"The news bringer", type:.watch), Answer(text:"Always online", type:.iphone), Answer(text:"A school person", type:.macbook), Answer(text:"A work horse", type:.imac)].shuffled()),
-        Question(text: "Do you like to travel", type:.ranged, answers:[Answer(text:"Yes", type:.watch), Answer(text:"Somethimes", type:.iphone), Answer(text:"It's possible", type:.macbook), Answer(text:"No", type:.imac)])]
+        Question(text: "Do you like to stay home", type:.ranged, answers:[Answer(text:"Yes", type:.watch), Answer(text:"Somethimes", type:.iphone), Answer(text:"It's possible", type:.macbook), Answer(text:"No", type:.imac)])]
     
     var questionIndex = 0
     var answersChosen : [Answer] = []
@@ -55,11 +55,11 @@ class QuestionViewController: UIViewController {
         case singleBut1:
             answersChosen.append(currentAns[0])
         case singleBut2:
-            answersChosen.append(currentAns[3])
-        case singleBut3:
             answersChosen.append(currentAns[1])
-        case singleBut4:
+        case singleBut3:
             answersChosen.append(currentAns[2])
+        case singleBut4:
+            answersChosen.append(currentAns[3])
         default:
             break
         }
@@ -71,13 +71,13 @@ class QuestionViewController: UIViewController {
         let currentAns = questions[questionIndex].answers
         
         if switch1.isOn {
-            answersChosen.append(currentAns[1])
+            answersChosen.append(currentAns[0])
         }
         if switch2.isOn {
-            answersChosen.append(currentAns[2])
+            answersChosen.append(currentAns[1])
         }
         if switch3.isOn {
-            answersChosen.append(currentAns[0])
+            answersChosen.append(currentAns[2])
         }
         if switch4.isOn {
             answersChosen.append(currentAns[3])
@@ -86,6 +86,7 @@ class QuestionViewController: UIViewController {
         nextQ()
     }
     
+    ///
     @IBAction func rangeButPressed() {
         let currentAns = questions[questionIndex].answers
         let index = Int(round(rangeSlider.value * Float(currentAns.count-1)))
@@ -94,6 +95,7 @@ class QuestionViewController: UIViewController {
         nextQ()
     }
     
+    ///
     func nextQ() {
         questionIndex += 1
         
@@ -132,9 +134,9 @@ class QuestionViewController: UIViewController {
     func updateSingle(using answers: [Answer]) {
         singleStack.isHidden = false
         singleBut1.setTitle(answers[0].text, for: .normal)
-        singleBut2.setTitle(answers[3].text, for: .normal)
-        singleBut3.setTitle(answers[1].text, for: .normal)
-        singleBut4.setTitle(answers[2].text, for: .normal)
+        singleBut2.setTitle(answers[1].text, for: .normal)
+        singleBut3.setTitle(answers[2].text, for: .normal)
+        singleBut4.setTitle(answers[3].text, for: .normal)
     }
     
     func updateMulti(using answers: [Answer]) {
@@ -143,9 +145,9 @@ class QuestionViewController: UIViewController {
         switch2.isOn = false
         switch3.isOn = false
         switch4.isOn = false
-        multiLabel1.text = answers[1].text
-        multiLabel2.text = answers[2].text
-        multiLabel3.text = answers[0].text
+        multiLabel1.text = answers[0].text
+        multiLabel2.text = answers[1].text
+        multiLabel3.text = answers[2].text
         multiLabel4.text = answers[3].text
     }
     
