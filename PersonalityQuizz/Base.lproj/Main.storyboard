@@ -362,18 +362,17 @@
                                     <constraint firstAttribute="height" constant="128" id="Pjg-oq-h3y"/>
                                 </constraints>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dWM-pJ-REC">
-                                <rect key="frame" x="10" y="336.33333333333337" width="464.33333333333331" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dWM-pJ-REC">
+                                <rect key="frame" x="0.0" y="335.33333333333331" width="375" height="141.33333333333331"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which Apple Product Are You?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6kL-Wz-Bps">
-                                        <rect key="frame" x="0.0" y="0.0" width="464.33333333333331" height="33"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="65.666666666666671"/>
                                         <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which Apple Product Are You?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kvw-Uf-cNx">
-                                        <rect key="frame" x="0.0" y="41" width="464.33333333333331" height="33"/>
+                                        <rect key="frame" x="0.0" y="75.666666666666686" width="375" height="65.666666666666686"/>
                                         <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -385,6 +384,7 @@
                         <constraints>
                             <constraint firstItem="IIo-Bq-qOI" firstAttribute="leading" secondItem="AfN-ny-PMs" secondAttribute="leadingMargin" id="04z-rl-PdD"/>
                             <constraint firstItem="C0y-Jq-eoh" firstAttribute="leading" secondItem="q3C-xZ-78R" secondAttribute="trailing" constant="263" id="1Vj-iA-fvh"/>
+                            <constraint firstItem="dWM-pJ-REC" firstAttribute="centerY" secondItem="AfN-ny-PMs" secondAttribute="centerY" id="Be1-70-WgW"/>
                             <constraint firstItem="ywL-i0-uU3" firstAttribute="leading" secondItem="IIo-Bq-qOI" secondAttribute="trailing" constant="263" id="C6g-Dm-Wk8"/>
                             <constraint firstItem="aVR-fJ-0Rn" firstAttribute="bottom" secondItem="3Gw-DZ-7Gd" secondAttribute="bottom" constant="20" id="Kvg-Fl-hMr"/>
                             <constraint firstItem="C0y-Jq-eoh" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="AfN-ny-PMs" secondAttribute="trailingMargin" id="Rdj-L2-yDX"/>
@@ -392,6 +392,8 @@
                             <constraint firstItem="ywL-i0-uU3" firstAttribute="top" secondItem="aVR-fJ-0Rn" secondAttribute="top" constant="10" id="VCK-sF-yqF"/>
                             <constraint firstItem="ywL-i0-uU3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="AfN-ny-PMs" secondAttribute="trailingMargin" id="aRy-Hh-yjX"/>
                             <constraint firstItem="IIo-Bq-qOI" firstAttribute="top" secondItem="aVR-fJ-0Rn" secondAttribute="top" constant="10" id="epR-aI-rb5"/>
+                            <constraint firstAttribute="trailing" secondItem="dWM-pJ-REC" secondAttribute="trailing" id="f9N-15-XCw"/>
+                            <constraint firstItem="dWM-pJ-REC" firstAttribute="leading" secondItem="AfN-ny-PMs" secondAttribute="leading" id="gJm-l6-91e"/>
                             <constraint firstItem="3Gw-DZ-7Gd" firstAttribute="centerX" secondItem="AfN-ny-PMs" secondAttribute="centerX" id="l40-1s-gPd"/>
                             <constraint firstItem="aVR-fJ-0Rn" firstAttribute="bottom" secondItem="C0y-Jq-eoh" secondAttribute="bottom" constant="20" id="rfn-3Y-hiN"/>
                             <constraint firstItem="q3C-xZ-78R" firstAttribute="leading" secondItem="AfN-ny-PMs" secondAttribute="leadingMargin" id="wxp-US-X6j"/>
@@ -413,7 +415,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qTJ-x3-Pah" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="K0O-NP-GZg" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2583.1999999999998" y="133.5832083958021"/>
+            <point key="canvasLocation" x="2583.1999999999998" y="133.00492610837438"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XpZ-jO-ybG">
