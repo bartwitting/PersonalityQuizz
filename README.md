@@ -16,7 +16,7 @@ Op deze vraag geef je antwoord door op het antwoord te klikken.
 ![Meerdere antwoorden](/doc/Multi.png)
 
 ###### Schaal antwoord
-Op deze vraag geef je antwoord door op het antwoord te klikken.
+Op deze vraag geef je antwoord door op het antwoord te klikken.<br/>
 ![Schaal antwoord](/doc/Ranged.png)
 
 De resultaten komen aan het einde te zien via het laatste scherm. Hier kan je ook de quiz opnieuw doen door op "Done" te klikken.
