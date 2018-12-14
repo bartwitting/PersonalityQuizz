@@ -10,11 +10,13 @@ import UIKit
 
 class IntroductionViewController: UIViewController {
 
+    /// Building the screen
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    /// Action to go back to this home menu
     @IBAction func unwindToStart(segue: UIStoryboardSegue) {
     }
 

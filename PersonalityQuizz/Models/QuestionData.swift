@@ -22,6 +22,7 @@ struct Answer {
     var text : String
     var type : Product
     
+    /// An enumaration to define the result
     enum Product: Character {
         case watch = "⌚️", iphone = "📱", macbook = "💻", imac = "🖥"
         

@@ -41,6 +41,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5089A0D121C3CB0400B18AC5 /* Boards */ = {
+			isa = PBXGroup;
+			children = (
+				50CDEA72219A442D00860DC7 /* Main.storyboard */,
+				50CDEA77219A442E00860DC7 /* LaunchScreen.storyboard */,
+			);
+			path = Boards;
+			sourceTree = "<group>";
+		};
+		5089A0D221C3CB0F00B18AC5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				50CDEA70219A442D00860DC7 /* IntroductionViewController.swift */,
+				50D978BF219AFE12009769A0 /* QuestionViewController.swift */,
+				50D978C1219AFE28009769A0 /* ResultsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5089A0D321C3CB1800B18AC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50D978C3219B4A48009769A0 /* QuestionData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		50CDEA62219A442D00860DC7 = {
 			isa = PBXGroup;
 			children = (
@@ -61,13 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				50CDEA6E219A442D00860DC7 /* AppDelegate.swift */,
-				50D978C3219B4A48009769A0 /* QuestionData.swift */,
-				50CDEA70219A442D00860DC7 /* IntroductionViewController.swift */,
-				50D978BF219AFE12009769A0 /* QuestionViewController.swift */,
-				50D978C1219AFE28009769A0 /* ResultsViewController.swift */,
-				50CDEA72219A442D00860DC7 /* Main.storyboard */,
+				5089A0D121C3CB0400B18AC5 /* Boards */,
+				5089A0D221C3CB0F00B18AC5 /* ViewControllers */,
+				5089A0D321C3CB1800B18AC5 /* Models */,
 				50CDEA75219A442E00860DC7 /* Assets.xcassets */,
-				50CDEA77219A442E00860DC7 /* LaunchScreen.storyboard */,
 				50CDEA7A219A442E00860DC7 /* Info.plist */,
 			);
 			path = PersonalityQuizz;
